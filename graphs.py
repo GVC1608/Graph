@@ -32,6 +32,12 @@ class Graph:
     def printGraph(self):
         print(self.dict)
 
+def find_shortest_distance(vertex1, vertex2, pathcost=0):
+	"""
+		finding the shortest distance using dijkastra algo
+	"""
+	pass
+
 customgraphdict = {
     "A":["B", "C"],
     "B":["D","E","A"],
